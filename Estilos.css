@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagenes/Manabi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cubierta{
+    width: 70%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 2s ease;  
+}
+.cubierta:hover{
+    background-color: transparent;
+}
+.contenidoc{
+    background-color: transparent;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+    }
+.contenidoc h1{
+    font-size: 45px;
+    color: aliceblue;
+    font-family: 'Libre Baskerville';
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 72px;
+    background-color:darkblue;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 24px;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre', serif;
+    color: white;
+}
+.boton-crearcuenta{
+    width: 180px;
+    height: 48px;
+    background-color: white;
+    color:rgb(10, 8, 122);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 30px; 
+    margin:18px;
+    cursor: pointer;
+    transition: all 1s ease;  
+}
+.boton-crearcuenta:hover{
+    background-color: blue;
+    color: white;
+}
+
+.boton-iniciosesion{
+    width: 180px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    border:2px solid white;
+    border-radius: 30px; 
+    margin:18px; 
+    cursor: pointer;
+    transition: all 1s ease;  
+    }
+
+.boton-iniciosesion:hover{
+ background-color: white;
+    color: black;
+}
+.enlace{
+    color: rgb(224, 221, 221);
+    font-weight: bold;
+    text-decoration: none;
+}
+.articulo{
+    background-color:white;
+    padding: 0 24px;
+    font-family: 'Averia Serif Libre', serif;
+    color: white;
+}
+.articulo h1{
+    font-size: 45px;
+    color:black;
+    font-family: 'Libre Baskerville';
+}
+.articulo p{
+    font-size: 20px;
+    color:black;
+    font-family: 'Averia Serif Libre', serif;
+}
+.arttours{
+    background-color:white;
+    padding: 0 24px;
+    font-family: 'Averia Serif Libre', serif;
+    color: white;
+    justify-content:space-around;
+}
+.arttours h1{
+    font-size: 45px;
+    color:chocolate;
+    font-family: 'Libre Baskerville';
+}
+.arttours h2{
+    font-size: 35px;
+    color:black;
+    font-family: 'Averia Serif Libre', serif;
+}
+.arttours h3{
+    font-size: 35px;
+    color:red;
+    font-family: 'Averia Serif Libre', serif;
+}
+.arttours p{
+    font-size: 20px;
+    color:black;
+    font-family: 'Averia Serif Libre', serif;
+}
+.botonreserva{
+    width: 300px;
+    height: 100px;
+    background-color:blue;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    border: none;
+    border-radius: 30px; 
+    margin:18px;
+    cursor: pointer;
+    transition: all 2s ease;  
+}
+.botonreserva:hover{
+    background-color: red;
+    color: white;
+}
